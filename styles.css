@@ -1,0 +1,36 @@
+/* h2 {
+    text-align: center;
+} */
+
+#banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+nav {
+    background-color: red;
+}
+
+.flex-child {
+    color: white;
+}
+
+a:visited {
+  color: lightgrey;
+}
+
+.studentOrg img, .event img {
+    width: 100px;
+}
+
+.studentOrgs .flex-container {
+    background-color: white;
+}
