@@ -6,6 +6,7 @@
 h1 {
     font-size: 40px;
     margin: 5px;
+    text-align: center;
 }
 
 h2 {
@@ -17,7 +18,7 @@ h3 {
     font-size: 19px;
 }
 
-p {
+p, li {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
     color: black;
@@ -27,6 +28,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #CCCCCC;
 }
 
 .flex-container {
@@ -37,15 +39,11 @@ p {
 }
 
 nav {
-    background-color: red;
+    background-color: #CC0000;
 }
 
-.flex-child {
-    color: white;
-}
-
-nav a:visited {
-  color: lightgrey;
+nav a:visited, footer a:visited {
+  color: rgb(240, 240, 240);
 }
 
 a {
@@ -56,15 +54,20 @@ a:visited {
     color: black;
 }
 
+nav a, footer a {
+    color: white;
+    text-decoration: none;
+}
+
 p a {
     font-size: 15px;
 }
 
-.studentOrg img, .event img {
+.student-org img, .event img {
     width: 100px;
 }
 
-.studentOrgs .flex-container {
+.student-orgs .flex-container {
     background-color: white;
 }
 
@@ -80,4 +83,9 @@ p a {
 
 .sport-card * {
     margin: 2px;
+}
+
+footer {
+    background-color: #CC0000;
+    padding: 15px;
 }

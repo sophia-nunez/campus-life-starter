@@ -55,3 +55,15 @@ article * {
     color: white;
     background-color: #CC0000;
 }
+
+.event {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    grid-auto-rows: 250px;
+    margin: 40px 20px;
+    padding: 5px;
+}
+
+.event img {
+    align-self: center;
+}
