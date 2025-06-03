@@ -1,6 +1,27 @@
-/* h2 {
-    text-align: center;
-} */
+* {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #CC0000;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 5px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    color: maroon;
+    font-size: 19px;
+}
+
+p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color: black;
+}
 
 #banner {
     display: flex;
@@ -23,8 +44,20 @@ nav {
     color: white;
 }
 
-a:visited {
+nav a:visited {
   color: lightgrey;
+}
+
+a {
+    color: maroon;
+}
+
+a:visited {
+    color: black;
+}
+
+p a {
+    font-size: 15px;
 }
 
 .studentOrg img, .event img {
@@ -33,4 +66,18 @@ a:visited {
 
 .studentOrgs .flex-container {
     background-color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns:  repeat(2, 1fr);
+    grid-auto-rows: 80px;
+}
+
+.main-sport * {
+    margin-bottom: 2px;
+}
+
+.sport-card * {
+    margin: 2px;
 }
